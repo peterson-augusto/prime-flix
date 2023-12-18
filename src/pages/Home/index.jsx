@@ -2,9 +2,7 @@ import { useEffect, useState } from "react"
 import api from '../../services/api'
 import { Link } from "react-router-dom"
 import './home.css'
-
-const API_KEY = '21989ea7f1838d307e5f598db6dc1837'
-
+import API_KEY from "../../services/api_key"
 
 export default function Home() {
     const [movies, setMovies] = useState([])

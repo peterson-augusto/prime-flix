@@ -3,9 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom'
 import './film-info.css'
 import api from '../../services/api'
 import { toast } from 'react-toastify'
-
-const API_KEY = '21989ea7f1838d307e5f598db6dc1837'
-
+import API_KEY from '../../services/api_key'
 
 export default function Film() {
 
